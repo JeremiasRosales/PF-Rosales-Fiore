@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+img
+{
+    max-width: 100%;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 65);
+    padding: 0.5em; 
+    z-index: 1;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 5px;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    background-image: url(IMG/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2
+{
+    text-align: center;
+}
+
+.intro
+{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+}
+
+.intro p
+{
+    max-width: 30%;
+}
+
+.intro img
+{
+    position: relative;
+}
+
+header img 
+{
+    margin: 0px;
+}
+
+nav li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(109, 109, 14);
+    
+}
+
+a:hover 
+{
+    color: rgb(6, 84, 158)
+}
+
+nav
+{
+    border-style: solid;
+    border-color: gold;
+}
+
+body
+{
+    background-color: rgb(4, 4, 48);
+}
+
+main
+{
+    padding-bottom: 30px;
+}
+h1
+{
+    color: gold
+}
+
+label
+{
+    color: white;
+}
+
+iframe
+{
+    padding-top: 20px;
+}
+
+footer
+{
+    padding-top: 2px;
+    background-color: gray;
+}
+
+footer p 
+{
+    text-align: right;
+}
+
+input
+{
+    color: black;
+}
+
+.video
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main-form
+{
+    text-align: center;
+}
+
+form
+{
+    display:inline-block;
+}
+
+.galeria
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.galeria img
+{
+    width: 50%;
+}
+
+.mapa
+{
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    cursor: pointer;
+}
