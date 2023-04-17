@@ -188,6 +188,7 @@ form
 .carousel
 {
     width: 75%;
+    margin-top: 10px;
 }
 
 .mapa
@@ -199,4 +200,15 @@ form
 input
 {
     cursor: pointer;
+}
+
+.carousel-control-prev-icon
+{
+    background-image: url(IMG/atras.png);
+    
+}
+
+.carousel-control-next-icon
+{
+    background-image: url(IMG/adelante.png);
 }
