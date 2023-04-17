@@ -10,6 +10,16 @@ img
     max-width: 100%;
 }
 
+h1
+{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+p
+{
+    font-family: 'Heebo', sans-serif;
+}
+
 nav
 {
     display: flex;
@@ -175,9 +185,9 @@ form
     gap: 30px;
 }
 
-.galeria img
+.carousel
 {
-    width: 50%;
+    width: 75%;
 }
 
 .mapa
