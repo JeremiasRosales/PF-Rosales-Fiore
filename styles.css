@@ -17,6 +17,12 @@ nav
     background-color: rgb(1, 1, 65);
     padding: 0.5em; 
     z-index: 1;
+    border-radius: 5px;
+}
+
+nav ul
+{
+    margin-bottom: 0px;
 }
 
 nav ul li
@@ -136,6 +142,7 @@ footer
 footer p 
 {
     text-align: right;
+    margin-bottom: 0px;
 }
 
 input
