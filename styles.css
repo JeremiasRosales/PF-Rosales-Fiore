@@ -212,3 +212,119 @@ input
 {
     background-image: url(IMG/adelante.png);
 }
+
+.fichas
+{
+    width: 75%;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.star1, .star2, .star3, .star4, .star5, .star6, .star7
+{
+    display: none;
+}
+
+@media screen and (min-width: 641px)
+{
+    .star1, .star2, .star3, .star4, .star5, .star6, .star7
+    {
+        display: block;
+        opacity: 75%;
+    }
+    .fichas
+    {
+        display: grid;
+        grid-template-areas: 
+        "ficha1 star1"
+        "star2 ficha2"
+        "ficha3 star3"
+        "star4 ficha4"
+        "ficha5 star5"
+        "star6 ficha6"
+        "ficha7 star7"
+        ;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .star1, .star2, .star3, .star4, .star5, .star6, .star7
+    {
+        display: block;
+        opacity: 75%;
+    }
+    .fichas
+    {
+        display: grid;
+        grid-template-areas: 
+        "ficha1 star1 ficha2 star2"
+        "star3 ficha3 star4 ficha4"
+        "ficha5 star5 ficha6 star6"
+        "star7 ficha7 . ."
+        ;
+    }
+}
+
+.ficha1
+{
+    grid-area: ficha1;
+}
+
+.ficha2
+{
+    grid-area: ficha2;
+}
+
+.ficha3
+{
+    grid-area: ficha3;
+}
+
+.ficha4
+{
+    grid-area: ficha4;
+}
+
+.ficha5
+{
+    grid-area: ficha5;
+}
+
+.ficha6
+{
+    grid-area: ficha6;
+}
+
+.ficha7
+{
+    grid-area: ficha7;
+}
+
+.star1
+{
+    grid-area: star1;
+}
+.star1
+{
+    grid-area: star2;
+}
+.star1
+{
+    grid-area: star3;
+}
+.star1
+{
+    grid-area: star4;
+}
+.star1
+{
+    grid-area: star5;
+}
+.star1
+{
+    grid-area: star6;
+}
