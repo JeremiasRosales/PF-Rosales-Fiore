@@ -257,13 +257,13 @@ input
     align-items: center;
 }
 
-.submit
+.form__submit
 {
     width: 5rem;
     border-radius: 20px;
 }
 
-.reset
+.form__reset
 {
     width: 7rem;
     border-radius: 20px;
@@ -297,14 +297,14 @@ input
     gap: 40px;
 }
 
-.main__fichas--star1, .main__fichas--star2, .main__fichas--star3, .main__fichas--star4, .main__fichas--star5, .main__fichas--star6, .main__fichas--star7
+.fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7
 {
     display: none;
 }
 
 @media screen and (min-width: 641px)
 {
-    .main__fichas--star1, .main__fichas--star2, .main__fichas--star3, .main__fichas--star4, .main__fichas--star5, .main__fichas--star6, .main__fichas--star7
+    .fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7
     {
         display: block;
         opacity: 75%;
@@ -326,7 +326,7 @@ input
 
 @media screen and (min-width: 1000px)
 {
-    .main__fichas--star1, .main__fichas--star2, .main__fichas--star3, .main__fichas--star4, .main__fichas--star5, .main__fichas--star6, .main__fichas--star7
+    .fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7
     {
         display: block;
         opacity: 75%;
@@ -343,62 +343,47 @@ input
     }
 }
 
-.main__fichas--ficha1
+.fichas__ficha1
 {
     grid-area: ficha1;
 }
 
-.main__fichas--ficha2
+.fichas__ficha2
 {
     grid-area: ficha2;
 }
 
-.main__fichas--ficha3
+.fichas__ficha3
 {
     grid-area: ficha3;
 }
 
-.main__fichas--ficha4
+.fichas__ficha4
 {
     grid-area: ficha4;
 }
 
-.main__fichas--ficha5
+.fichas__ficha5
 {
     grid-area: ficha5;
 }
 
-.main__fichas--ficha6
+.fichas__ficha6
 {
     grid-area: ficha6;
 }
 
-.main__fichas--ficha7
+.fichas__ficha7
 {
     grid-area: ficha7;
 }
 
-.main__fichas--star1
+.fichas__star1
 {
     grid-area: star1;
-}
-.main__fichas--star1
-{
     grid-area: star2;
-}
-.main__fichas--star1
-{
     grid-area: star3;
-}
-.main__fichas--star1
-{
     grid-area: star4;
-}
-.main__fichas--star1
-{
     grid-area: star5;
-}
-.main__fichas--star1
-{
     grid-area: star6;
 }
