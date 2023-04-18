@@ -145,8 +145,11 @@ iframe
 
 footer
 {
+    position: fixed;
+    bottom: 0;
     padding-top: 2px;
     background-color: gray;
+    width: 100%;
 }
 
 footer p 
@@ -187,8 +190,24 @@ form
 
 .carousel
 {
-    width: 75%;
+    width: 100%;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 641px)
+{
+    .carousel
+    {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .carousel
+    {
+        width: 50%;
+    }
 }
 
 .mapa
