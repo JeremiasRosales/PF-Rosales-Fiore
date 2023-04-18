@@ -104,7 +104,8 @@ a
 
 a:hover 
 {
-    color: rgb(6, 84, 158)
+    color: rgb(6, 84, 158);
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
 }
 
 nav
