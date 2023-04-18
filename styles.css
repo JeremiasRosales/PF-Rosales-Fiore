@@ -179,6 +179,12 @@ form
     display:inline-block;
 }
 
+.form-item
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .galeria
 {
     display: flex;
