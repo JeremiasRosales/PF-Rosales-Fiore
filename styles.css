@@ -77,13 +77,7 @@ h2
     display: flex;
     align-items:center;
     justify-content: space-evenly;
-    
     width: 100%;
-}
-
-.intro p
-{
-    max-width: 30%;
 }
 
 .intro img
@@ -128,9 +122,15 @@ main
 {
     padding-bottom: 30px;
 }
+
 h1
 {
     color: gold
+}
+
+.intro
+{
+    text-align: center;
 }
 
 label
@@ -183,6 +183,11 @@ form
 {
     display: flex;
     flex-direction: column;
+}
+
+.form-item label
+{
+    text-decoration: underline;
 }
 
 .galeria
