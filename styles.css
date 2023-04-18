@@ -202,6 +202,34 @@ input
     cursor: pointer;
 }
 
+.main-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.form-contacto
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    width: 40%;
+    align-items: center;
+}
+
+.submit
+{
+    width: 5rem;
+    border-radius: 20px;
+}
+
+.reset
+{
+    width: 7rem;
+    border-radius: 20px;
+}
+
 .carousel-control-prev-icon
 {
     background-image: url(IMG/atras.png);
