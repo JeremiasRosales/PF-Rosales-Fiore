@@ -45,7 +45,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    background-image: url(img/fondo.png);
+    background-image: url(../img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -290,13 +290,13 @@ input
 
 .carousel-control-prev-icon
 {
-    background-image: url(img/atras.png);
+    background-image: url(../img/atras.png);
     
 }
 
 .carousel-control-next-icon
 {
-    background-image: url(img/adelante.png);
+    background-image: url(../img/adelante.png);
 }
 
 .main__fichas
