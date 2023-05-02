@@ -13,32 +13,14 @@ img
 h1
 {
     font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+    margin-top: 20px;
+    color: gold
 }
 
-p
+h2
 {
-    font-family: 'Heebo', sans-serif;
-}
-
-nav
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(1, 1, 65);
-    padding: 0.5em; 
-    z-index: 1;
-    border-radius: 5px;
-}
-
-nav ul
-{
-    margin-bottom: 0px;
-}
-
-nav ul li
-{
-    display: inline;
-    padding: 5px;
+    text-align: center;
 }
 
 body
@@ -49,73 +31,6 @@ body
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-
-header
-{
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-}
-
-h1
-{
-    text-align: center;
-    margin-top: 20px;
-}
-
-h2
-{
-    text-align: center;
-}
-
-.main__intro
-{
-    display: flex;
-    align-items:center;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.main__intro img
-{
-    position: relative;
-}
-
-header img 
-{
-    margin: 0px;
-}
-
-nav li
-{
-    list-style: none;
-}
-
-a
-{
-    text-decoration: none;
-    color: rgb(109, 109, 14);
-    
-}
-
-a:hover 
-{
-    color: rgb(6, 84, 158);
-    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
-}
-
-nav
-{
-    border-style: solid;
-    border-color: gold;
-}
-
-body
-{
     background-color: rgb(4, 4, 48);
 }
 
@@ -124,14 +39,73 @@ main
     padding-bottom: 30px;
 }
 
-h1
+p
 {
-    color: gold
+    font-family: 'Heebo', sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(109, 109, 14);
+
+    &:hover
+    {
+        color: rgb(6, 84, 158);
+        text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    }
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    img 
+    {
+        margin: 0px;
+    }
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 65);
+    padding: 0.5em; 
+    z-index: 1;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: gold;
+
+        ul
+        {
+        margin-bottom: 0px;
+
+            li
+            {
+                display: inline;
+                padding: 5px;
+                list-style: none;
+            }
+        }
 }
 
 .main__intro
 {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 100%;
     text-align: center;
+
+    img
+    {
+        position: relative;
+    }
 }
 
 iframe
@@ -146,21 +120,16 @@ footer
     padding-top: 2px;
     background-color: gray;
     width: 100%;
-}
 
-footer p 
-{
-    text-align: right;
-    margin-bottom: 0px;
+    p 
+    {
+        text-align: right;
+        margin-bottom: 0px;
+    }
 }
 
 .main__video
 {
     display: flex;
     justify-content: center;
-}
-
-.main__form
-{
-    text-align: center;
 }

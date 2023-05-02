@@ -10,28 +10,13 @@ img {
 
 h1 {
   font-family: "Sedgwick Ave Display", cursive;
+  text-align: center;
+  margin-top: 20px;
+  color: gold;
 }
 
-p {
-  font-family: "Heebo", sans-serif;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgb(1, 1, 65);
-  padding: 0.5em;
-  z-index: 1;
-  border-radius: 5px;
-}
-
-nav ul {
-  margin-bottom: 0px;
-}
-
-nav ul li {
-  display: inline;
-  padding: 5px;
+h2 {
+  text-align: center;
 }
 
 body {
@@ -41,6 +26,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: rgb(4, 4, 48);
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(109, 109, 14);
+}
+a:hover {
+  color: rgb(6, 84, 158);
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
 }
 
 header {
@@ -50,14 +53,27 @@ header {
   top: 0;
   z-index: 1;
 }
-
-h1 {
-  text-align: center;
-  margin-top: 20px;
+header img {
+  margin: 0px;
 }
 
-h2 {
-  text-align: center;
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(1, 1, 65);
+  padding: 0.5em;
+  z-index: 1;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gold;
+}
+nav ul {
+  margin-bottom: 0px;
+}
+nav ul li {
+  display: inline;
+  padding: 5px;
+  list-style: none;
 }
 
 .main__intro {
@@ -65,49 +81,10 @@ h2 {
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  text-align: center;
 }
-
 .main__intro img {
   position: relative;
-}
-
-header img {
-  margin: 0px;
-}
-
-nav li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(109, 109, 14);
-}
-
-a:hover {
-  color: rgb(6, 84, 158);
-  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
-}
-
-nav {
-  border-style: solid;
-  border-color: gold;
-}
-
-body {
-  background-color: rgb(4, 4, 48);
-}
-
-main {
-  padding-bottom: 30px;
-}
-
-h1 {
-  color: gold;
-}
-
-.main__intro {
-  text-align: center;
 }
 
 iframe {
@@ -121,7 +98,6 @@ footer {
   background-color: gray;
   width: 100%;
 }
-
 footer p {
   text-align: right;
   margin-bottom: 0px;
@@ -130,10 +106,6 @@ footer p {
 .main__video {
   display: flex;
   justify-content: center;
-}
-
-.main__form {
-  text-align: center;
 }
 
 label {
@@ -164,6 +136,7 @@ input {
 .main__form {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .form__contacto {
