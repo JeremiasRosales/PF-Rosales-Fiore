@@ -1,0 +1,61 @@
+label
+{
+    color: white;
+}
+
+
+input
+{
+    color: black;
+}
+
+
+
+form
+{
+    display:inline-block;
+}
+
+.form__item
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__item label
+{
+    text-decoration: underline;
+}
+
+input
+{
+    cursor: pointer;
+}
+
+.main__form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.form__contacto
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    width: 40%;
+    align-items: center;
+}
+
+.form__submit
+{
+    width: 5rem;
+    border-radius: 20px;
+}
+
+.form__reset
+{
+    width: 7rem;
+    border-radius: 20px;
+}

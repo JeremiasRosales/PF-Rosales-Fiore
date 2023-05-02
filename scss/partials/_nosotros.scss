@@ -1,0 +1,24 @@
+.main__mapa
+{
+    display: flex;
+    justify-content: center;
+}
+
+.main__autor
+{
+    justify-content: center;
+}
+
+@media screen and (min-width: 1000px)
+{
+    .main__autor img
+    {
+        width: 25%;
+    }
+}
+.main__autor p
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

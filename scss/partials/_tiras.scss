@@ -1,0 +1,49 @@
+.main__galeria
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.carousel
+{
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 670px)
+{
+    .carousel
+    {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .carousel
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1400px)
+{
+    .carousel
+    {
+        width: 50%;
+    }
+}
+
+.carousel-control-prev-icon
+{
+    background-image: url(../img/atras.png);
+    
+}
+
+.carousel-control-next-icon
+{
+    background-image: url(../img/adelante.png);
+}
