@@ -13,6 +13,17 @@
     margin-top: 10px;
 }
 
+.carousel-control-prev-icon
+{
+    background-image: url(../img/atras.png);
+    
+}
+
+.carousel-control-next-icon
+{
+    background-image: url(../img/adelante.png);
+}
+
 @media screen and (min-width: 670px)
 {
     .carousel
@@ -35,15 +46,4 @@
     {
         width: 50%;
     }
-}
-
-.carousel-control-prev-icon
-{
-    background-image: url(../img/atras.png);
-    
-}
-
-.carousel-control-next-icon
-{
-    background-image: url(../img/adelante.png);
 }

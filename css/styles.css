@@ -114,6 +114,7 @@ label {
 
 input {
   color: black;
+  cursor: pointer;
 }
 
 form {
@@ -124,13 +125,8 @@ form {
   display: flex;
   flex-direction: column;
 }
-
 .form__item label {
   text-decoration: underline;
-}
-
-input {
-  cursor: pointer;
 }
 
 .main__form {
@@ -236,18 +232,17 @@ input {
 .main__autor {
   justify-content: center;
 }
-
-@media screen and (min-width: 1000px) {
-  .main__autor img {
-    width: 25%;
-  }
-}
 .main__autor p {
   display: flex;
   align-items: center;
   text-align: center;
 }
 
+@media screen and (min-width: 1000px) {
+  .main__autor img {
+    width: 25%;
+  }
+}
 .main__galeria {
   display: flex;
   justify-content: space-between;
@@ -259,6 +254,14 @@ input {
 .carousel {
   width: 100%;
   margin-top: 10px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url(../img/atras.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(../img/adelante.png);
 }
 
 @media screen and (min-width: 670px) {
@@ -275,13 +278,6 @@ input {
   .carousel {
     width: 50%;
   }
-}
-.carousel-control-prev-icon {
-  background-image: url(../img/atras.png);
-}
-
-.carousel-control-next-icon {
-  background-image: url(../img/adelante.png);
 }
 
 /*# sourceMappingURL=styles.css.map */
