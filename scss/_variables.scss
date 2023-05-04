@@ -1,0 +1,15 @@
+/*Variables de tamaño de pantalla*/
+
+$tablet:641px;
+$desktop:1000px;
+$desktopxl:1400px;
+
+/*Variables de color*/
+$color-primario: rgb(4, 4, 48);
+$color-secundario: rgb(255, 215, 0);
+
+@mixin flex-columna 
+{
+    display: flex;
+    flex-direction: column;
+}

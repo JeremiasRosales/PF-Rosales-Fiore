@@ -1,8 +1,7 @@
 .main__galeria
 {
-    display: flex;
+    @include flex-columna;
     justify-content: space-between;
-    flex-direction: column;
     align-items: center;
     gap: 30px;
 }
@@ -24,7 +23,7 @@
     background-image: url(../img/adelante.png);
 }
 
-@media screen and (min-width: 670px)
+@media screen and (min-width: $tablet)
 {
     .carousel
     {
@@ -32,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 1000px)
+@media screen and (min-width: $desktop)
 {
     .carousel
     {
@@ -40,7 +39,7 @@
     }
 }
 
-@media screen and (min-width: 1400px)
+@media screen and (min-width: $desktopxl)
 {
     .carousel
     {

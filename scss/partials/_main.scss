@@ -15,7 +15,7 @@ h1
     font-family: 'Sedgwick Ave Display', cursive;
     text-align: center;
     margin-top: 20px;
-    color: gold
+    color: $color-secundario
 }
 
 h2
@@ -25,13 +25,12 @@ h2
 
 body
 {
-    display: flex;
-    flex-direction: column;
+    @include flex-columna;
     background-image: url(../img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgb(4, 4, 48);
+    background-color: $color-primario;
 }
 
 main
@@ -58,8 +57,7 @@ a
 
 header
 {
-    display: flex;
-    flex-direction: column;
+    @include flex-columna;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -74,12 +72,12 @@ nav
 {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(1, 1, 65);
+    background-color: $color-primario;
     padding: 0.5em; 
     z-index: 1;
     border-radius: 5px;
     border-style: solid;
-    border-color: gold;
+    border-color: $color-secundario;
 
         ul
         {

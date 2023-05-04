@@ -16,8 +16,7 @@ form
 
 .form__item
 {
-    display: flex;
-    flex-direction: column;
+    @include flex-columna;
 
     label
     {
