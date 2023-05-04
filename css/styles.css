@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/*Variables de tamaño de pantalla*/
+/*Variables de color*/
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +15,7 @@ h1 {
   font-family: "Sedgwick Ave Display", cursive;
   text-align: center;
   margin-top: 20px;
-  color: gold;
+  color: rgb(255, 215, 0);
 }
 
 h2 {
@@ -60,12 +63,12 @@ header img {
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(1, 1, 65);
+  background-color: rgb(4, 4, 48);
   padding: 0.5em;
   z-index: 1;
   border-radius: 5px;
   border-style: solid;
-  border-color: gold;
+  border-color: rgb(255, 215, 0);
 }
 nav ul {
   margin-bottom: 0px;
@@ -155,10 +158,10 @@ form {
 }
 
 .main__fichas {
-  width: 75%;
   display: flex;
-  width: 100%;
   flex-direction: column;
+  width: 75%;
+  width: 100%;
   align-items: center;
   gap: 40px;
 }
@@ -245,8 +248,8 @@ form {
 }
 .main__galeria {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
@@ -264,7 +267,7 @@ form {
   background-image: url(../img/adelante.png);
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 641px) {
   .carousel {
     width: 85%;
   }
