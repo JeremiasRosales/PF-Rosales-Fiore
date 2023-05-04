@@ -81,11 +81,13 @@ nav
                 {
                     text-decoration: none;
                     color: rgb(109, 109, 14);
+                    transition: .3s;
                     
                     &:hover
                     {
                         color: rgb(6, 84, 158);
                         text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+                        font-size: 130%;
                     }
 
                     &:active
