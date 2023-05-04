@@ -79,9 +79,12 @@ nav ul li {
   list-style: none;
 }
 
-.main__intro {
+.main__video, .main__intro {
   display: flex;
-  align-items: center;
+  justify-content: center;
+}
+
+.main__intro {
   justify-content: space-evenly;
   width: 100%;
   text-align: center;
@@ -104,11 +107,6 @@ footer {
 footer p {
   text-align: right;
   margin-bottom: 0px;
-}
-
-.main__video {
-  display: flex;
-  justify-content: center;
 }
 
 label {
@@ -168,8 +166,22 @@ form {
 
 .fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7 {
   display: none;
+  /*transform: rotate(360deg);
+  transition: 2s;*/
+  animation-name: rotacion;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
 }
 
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 641px) {
   .fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7 {
     display: block;

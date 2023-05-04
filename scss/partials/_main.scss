@@ -92,10 +92,15 @@ nav
         }
 }
 
-.main__intro
+.main__video
 {
     display: flex;
-    align-items:center;
+    justify-content: center;
+}
+
+.main__intro
+{
+    @extend .main__video;
     justify-content: space-evenly;
     width: 100%;
     text-align: center;
@@ -126,8 +131,3 @@ footer
     }
 }
 
-.main__video
-{
-    display: flex;
-    justify-content: center;
-}
