@@ -40,15 +40,6 @@ p {
   font-family: "Heebo", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: rgb(109, 109, 14);
-}
-a:hover {
-  color: rgb(6, 84, 158);
-  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -77,6 +68,17 @@ nav ul li {
   display: inline;
   padding: 5px;
   list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(109, 109, 14);
+}
+nav ul li a:hover {
+  color: rgb(6, 84, 158);
+  text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6);
+}
+nav ul li a:active {
+  color: rgb(255, 215, 0);
 }
 
 .main__video, .main__intro {
