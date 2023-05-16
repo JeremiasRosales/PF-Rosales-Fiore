@@ -154,3 +154,8 @@ footer
     }
 }
 
+.main__error
+{
+    @include flex-columna;
+    align-items: center;
+}
