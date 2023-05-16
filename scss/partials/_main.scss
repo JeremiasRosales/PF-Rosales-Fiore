@@ -80,7 +80,7 @@ nav
                 a
                 {
                     text-decoration: none;
-                    color: rgb(109, 109, 14);
+                    color: $color-terciario;
                     transition: .3s;
                     
                     &:hover
@@ -128,8 +128,9 @@ footer
     position: fixed;
     bottom: 0;
     padding-top: 2px;
-    background-color: rgb(92, 78, 2);
     width: 100%;
+    background-color: $color-primario;
+    opacity: 70%;
 
     p 
     {
