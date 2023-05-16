@@ -10,12 +10,12 @@
 .fichas__star1, .fichas__star2, .fichas__star3, .fichas__star4, .fichas__star5, .fichas__star6, .fichas__star7
 {
     display: none;
-    /*transform: rotate(360deg);
-    transition: 2s;*/
     animation-name: rotacion;
     animation-iteration-count: infinite;
     animation-duration: 5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
+    width: 75%;
+    margin-left: 2rem;
 }
 
 @keyframes rotacion
