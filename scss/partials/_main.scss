@@ -158,4 +158,21 @@ footer
 {
     @include flex-columna;
     align-items: center;
+
+    img 
+    {
+        width: 80%;
+        
+    }
+}
+
+@media screen and (min-width: $tablet) 
+{
+    .main__error
+    {
+        img 
+        {
+            width: auto;
+        }
+    }
 }
