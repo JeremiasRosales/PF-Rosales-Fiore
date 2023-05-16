@@ -73,7 +73,8 @@ nav
 
             li
             {
-                display: inline;
+                display: block;
+                text-align: center;
                 padding: 5px;
                 list-style: none;
 
@@ -97,6 +98,20 @@ nav
                 }
             }
         }
+}
+
+@media screen and (min-width: $tablet) 
+{
+    nav
+    {
+        ul
+        {
+            li
+            {
+                display: inline;
+            }
+        }
+    }
 }
 
 .main__video

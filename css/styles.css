@@ -65,7 +65,8 @@ nav ul {
   margin-bottom: 0px;
 }
 nav ul li {
-  display: inline;
+  display: block;
+  text-align: center;
   padding: 5px;
   list-style: none;
 }
@@ -83,6 +84,11 @@ nav ul li a:active {
   color: rgb(255, 215, 0);
 }
 
+@media screen and (min-width: 641px) {
+  nav ul li {
+    display: inline;
+  }
+}
 .main__video, .main__intro {
   display: flex;
   justify-content: center;
